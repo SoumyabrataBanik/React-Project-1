@@ -1,0 +1,17 @@
+.filter-body {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 3rem;
+}
+
+.filter-body label {
+    font-size: 1.25rem;
+    margin: 2rem 0;
+}
+
+.filter-body select {
+    width: 7rem;
+    padding: 10px;
+    margin: 2rem 0;
+}

@@ -1,0 +1,69 @@
+.new-expense-form {
+    width: 60%;
+    margin: 2rem auto;
+    background-color: #969cf3;
+}
+
+.new-expense-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0.5rem 2rem 2rem 2rem;
+    gap: 2rem;
+}
+
+.new-expense-form form label{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.new-expense input{
+    width: 25rem;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.new-expense {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: whitesmoke;
+    background-color: #010168;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 3px 10px #2828aa;
+}
+
+@media (max-width: 1300px) {
+    .new-expense-form {
+        width: 98%;
+    }
+
+    .new-expense-form form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+    }
+
+    .new-expense {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+}
