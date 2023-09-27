@@ -81,3 +81,7 @@
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+.list-styling {
+    list-style: none;
+}

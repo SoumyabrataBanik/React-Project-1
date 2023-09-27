@@ -13,13 +13,15 @@ function ExpenseItem(props)
     // }
 
     return (
-        <Card className="expense-item">
-            <ExpenseDate date={props.date} />
-            <div className="expense-item-right">
-                <h2 className="expense-item-title">{props.title}</h2>
-                <Card className="expense-item-cost">₹{props.amount}</Card>
-            </div>
-        </Card>
+        <li className='list-styling'>
+            <Card className="expense-item">
+                <ExpenseDate date={props.date} />
+                <div className="expense-item-right">
+                    <h2 className="expense-item-title">{props.title}</h2>
+                    <Card className="expense-item-cost">₹{props.amount}</Card>
+                </div>
+            </Card>
+        </li>
     );
 }
 
